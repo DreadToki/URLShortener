@@ -1,0 +1,32 @@
+.whole-url-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.form-url-group {
+  width: 600px;
+  border-radius: 10px;
+  font-size: 20px;
+  line-height: 1.5em;
+  background-color: #fff;
+  border: 3px solid black;
+}
+
+.form-url-group > .shortUri {
+  line-height: 3em;
+  width: 100%;
+  border-bottom: 1px solid black;
+}
+
+label {
+  display: block;
+}
+
+button {
+  display: block;
+  margin: 15px 0px 20px 0px;
+}

@@ -1,0 +1,44 @@
+@media screen and (max-width: 800px) {
+  .textarea {
+    resize: both;
+  }
+}
+
+body {
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url("./circle-scatter-haikei.svg");
+  background-color: #001220;
+}
+
+.whole-about-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+#txtAbout {
+  display: flex;
+  align-self: center;
+  resize: none;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 70%;
+}
+
+#btnSubmit {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  margin-top: 20px;
+}
+
+#btnBack {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}

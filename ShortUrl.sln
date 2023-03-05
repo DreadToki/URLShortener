@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33403.182
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShortUrl", "ShortUrl\ShortUrl.csproj", "{F691F9C4-64BF-473D-95F4-0272BEB27191}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShortUrlTests", "ShortUrlTests\ShortUrlTests.csproj", "{552276CF-ABEE-41FB-9201-F41B70218DB6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F691F9C4-64BF-473D-95F4-0272BEB27191}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F691F9C4-64BF-473D-95F4-0272BEB27191}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F691F9C4-64BF-473D-95F4-0272BEB27191}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F691F9C4-64BF-473D-95F4-0272BEB27191}.Release|Any CPU.Build.0 = Release|Any CPU
+		{552276CF-ABEE-41FB-9201-F41B70218DB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{552276CF-ABEE-41FB-9201-F41B70218DB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{552276CF-ABEE-41FB-9201-F41B70218DB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{552276CF-ABEE-41FB-9201-F41B70218DB6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CD86BCD0-4F1E-447D-ACCD-F0831B93D59C}
+	EndGlobalSection
+EndGlobal

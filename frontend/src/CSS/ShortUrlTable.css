@@ -1,0 +1,66 @@
+@media screen and (max-width: 800px) {
+  .whole-table-container {
+    margin: 0px 0px;
+  }
+}
+
+body {
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-image: url("./circle-scatter-haikei.svg");
+}
+
+.whole-table-container {
+  display: flex;
+  justify-content: center;
+  margin: 0px 200px;
+}
+
+.table * {
+  text-align: center;
+  text-decoration: none;
+  background-color: #fff;
+}
+
+.table-body * {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: #000;
+}
+
+.btn-table {
+  border: none;
+  background-color: lightcoral;
+  color: #fff;
+  padding: 5px 20px;
+  font-size: 20px;
+  border-radius: 15px;
+}
+
+h1 {
+  color: #206bca;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.btns-menu {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.btns-menu > button {
+  margin-left: 10px;
+}
+
+#btn-info {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 20px;
+  background-color: #a7233a;
+  border-radius: 10px;
+  padding: 5px 20px;
+}
+
+#btn-info:hover {
+  color: #fff;
+  background-color: #f33354;
+}
